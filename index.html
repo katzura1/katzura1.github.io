@@ -33,7 +33,11 @@
           <div class="profile__border">
             <div class="profile__perfil">
               <!-- Insert your image, according to the example size of the portfolio -->
-              <img src="assets/img/profile.webp" alt="" />
+              <img
+                style="width: 100%; height: 100%"
+                src="assets/img/profile.webp"
+                alt=""
+              />
             </div>
           </div>
 
@@ -41,27 +45,36 @@
           <h3 class="profile__profession">Full-Stack Web developer</h3>
 
           <ul class="profile__social">
-            <a
-              href="https://www.instagram.com/denny.n3"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-instagram-line"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/denny-kz1/"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-linkedin-box-line"></i>
-            </a>
-            <a
-              href="https://github.com/katzura1"
-              target="_blank"
-              class="profile__social-link"
-            >
-              <i class="ri-github-line"></i>
-            </a>
+            <li>
+              <a
+                href="https://www.instagram.com/denny.n3"
+                target="_blank"
+                class="profile__social-link"
+                aria-label="instagram link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/denny-kz1/"
+                target="_blank"
+                class="profile__social-link"
+                aria-label="linkedin link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/katzura1"
+                target="_blank"
+                class="profile__social-link"
+                aria-label="github link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -96,6 +109,7 @@
             target="_blank"
             href="https://alumnimdpacid-my.sharepoint.com/:b:/g/personal/denny_az45_alumni_mdp_ac_id/EcadyJWvovlHqn0urCpaScEB-WtDfcfpNZ0zbENEjOSaYQ?e=kjFqhm"
             class="button"
+            aria-label="resume link"
           >
             Download CV <i class="ri-download-line"></i>
           </a>
@@ -106,6 +120,7 @@
               href="https://api.whatsapp.com/send?phone=62895365843243text=Hello, more information!"
               target="_blank"
               class="button button__small button__gray"
+              aria-label="whatsapp link"
             >
               <i class="ri-whatsapp-line"></i>
             </a>
@@ -114,6 +129,7 @@
               href="https://m.me/dennykz1"
               target="_blank"
               class="button button__small button__gray"
+              aria-label="fb messenger link"
             >
               <i class="ri-messenger-line"></i>
             </a>
@@ -127,13 +143,19 @@
       <section class="filters container">
         <!--=============== FILTERS TABS ===============-->
         <ul class="filters__content">
-          <button
-            class="filters__button filter-tab-active"
-            data-target="#projects"
-          >
-            Projects
-          </button>
-          <button class="filters__button" data-target="#skills">Skills</button>
+          <li>
+            <button
+              class="filters__button filter-tab-active"
+              data-target="#projects"
+            >
+              Projects
+            </button>
+          </li>
+          <li>
+            <button class="filters__button" data-target="#skills">
+              Skills
+            </button>
+          </li>
         </ul>
 
         <div class="filters__sections">
@@ -147,8 +169,9 @@
               <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
               <img
                 src="assets/img/project/project1.webp"
-                alt=""
+                alt="project sim"
                 class="projects__img"
+                style="width: 100%; height: 100%"
               />
 
               <div class="projects__modal">
@@ -165,8 +188,9 @@
             <article class="projects__card">
               <img
                 src="assets/img/project/project2.webp"
-                alt=""
+                alt="project fleet"
                 class="projects__img"
+                style="width: 100%; height: 100%"
               />
 
               <div class="projects__modal">
@@ -183,8 +207,9 @@
             <article class="projects__card">
               <img
                 src="assets/img/project/project3.webp"
-                alt=""
+                alt="project inventory"
                 class="projects__img"
+                style="width: 100%; height: 100%"
               />
 
               <div class="projects__modal">
@@ -201,8 +226,9 @@
             <article class="projects__card">
               <img
                 src="assets/img/project/project4.webp"
-                alt=""
+                alt="project transport"
                 class="projects__img"
+                style="width: 100%; height: 100%"
               />
 
               <div class="projects__modal">
@@ -219,8 +245,9 @@
             <article class="projects__card">
               <img
                 src="assets/img/project/project5.webp"
-                alt=""
+                alt="project salesman"
                 class="projects__img"
+                style="width: 100%; height: 100%"
               />
 
               <div class="projects__modal">
