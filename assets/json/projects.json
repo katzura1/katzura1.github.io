@@ -1,0 +1,65 @@
+[
+    {
+        "type" : "Website",
+        "name" : "Filling Information System",
+        "link" : "#",
+        "default_image" : "assets/img/project/project1.webp",
+        "stack" : [
+            "PHP", "CodeIgniter 3", "Jquery", "MySQL"
+        ]
+    },
+    {
+        "type" : "Website",
+        "name" : "Fleet System",
+        "link" : "#",
+        "default_image" : "assets/img/project/project2.webp",
+        "stack" : [
+            "PHP", "CodeIgniter 3", "Jquery", "MySQL"
+        ]
+    },
+    {
+        "type" : "Website",
+        "name" : "Inventory System",
+        "link" : "#",
+        "default_image" : "assets/img/project/project3.webp",
+        "stack" : [
+            "PHP", "CodeIgniter 3", "Jquery", "MySQL"
+        ]
+    },
+    {
+        "type" : "Website",
+        "name" : "Transport Management System",
+        "link" : "#",
+        "default_image" : "assets/img/project/project4.webp",
+        "stack" : [
+            "PHP", "Laravel 8", "Jquery", "MySQL"
+        ]
+    },
+    {
+        "type" : "Website & Mobile",
+        "name" : "Mini CRM System",
+        "link" : "https://web.apps.sumberbangroup.co.id",
+        "default_image" : "assets/img/project/project5.webp",
+        "stack" : [
+            "PHP", "Dart", "Laravel 8", "CodeIgniter 3", "Flutter", "Jquery", "MySQL"
+        ]
+    },
+    {
+        "type" : "Website",
+        "name" : "Company Profile",
+        "link" : "https://temans.co.id",
+        "default_image" : "assets/img/project/project6.webp",
+        "stack" : [
+            "PHP",  "CodeIgniter 3", "Google Maps API", "Jquery", "MySQL"
+        ]
+    },
+    {
+        "type" : "Website",
+        "name" : "Company Profile",
+        "link" : "https://ableworkz.com",
+        "default_image" : "assets/img/project/project7.webp",
+        "stack" : [
+            "PHP",  "Wordpress"
+        ]
+    }
+]

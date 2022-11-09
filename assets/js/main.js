@@ -64,3 +64,33 @@ sr.reveal(`.profile__info-group`, {interval: 100, delay: 700})
 sr.reveal(`.profile__buttons`, {delay: 800})
 sr.reveal(`.filters__content`, {delay: 900})
 sr.reveal(`.filters`, {delay: 1000})
+
+/*===============PROJECT JSON ===============*/
+const projects = document.querySelector('#projects');
+fetch('./assets/json/projects.json')
+    .then((response) => response.json())
+    .then(function(json){
+        json.map((project) => {
+            const card = `
+            <article class="projects__card">
+              <img
+                src="${project.default_image}"
+                alt="${project.name}"
+                class="projects__img"
+                style="width: 100%; height: 100%"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">${project.type}</span>
+                  <h3 class="projects__title">${project.name}</h3>
+                  <a href="${project.link}" class="projects__button button button__small" target="_blank">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+            `;
+            projects.insertAdjacentHTML('beforeend',card);
+        })
+    });
